@@ -1,0 +1,213 @@
+---
+---
+
+$LURPSred: #c22b22;
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.title {
+    margin-top:50px;
+    h1 {
+        font-family:'Oswald';
+        text-transform:uppercase;
+        text-align:center;
+        background-color:$LURPSred;
+        color:white;
+        padding:10px;
+        margin:0;
+    }
+}
+
+.navbar-default  {
+    font-family:'Oswald';
+    text-transform:uppercase;
+    overflow:hidden;
+    height:50px;
+}
+
+$LURPSred   : $LURPSred;
+$dropDown   : true;
+
+.navbar-default {
+    background-color: #ffffff;
+    border-color: $LURPSred;
+
+    .navbar-brand {
+        color: $LURPSred;
+        &:hover, &:focus {
+            color: #ffffff;
+            background-color: $LURPSred;
+        }
+    }
+
+    .navbar-text {
+        color: $LURPSred;
+    }
+
+    .navbar-nav {
+        > li {
+            > a {
+                color: $LURPSred;
+                &:hover,  &:focus {
+                    color: #ffffff;
+                    background-color: $LURPSred;
+                }
+            }
+
+            @if $dropDown {
+                > .dropdown-menu {
+                    background-color: #ffffff;
+                    > li {
+                        > a {
+                            color: $LURPSred;
+                            &:hover,  &:focus {
+                                color: #ffffff;
+                                background-color: $LURPSred;
+                            }
+                        }
+                        > .divider {
+                        background-color: $LURPSred;
+                        }
+                    }
+                }
+            }
+        }
+
+        @if $dropDown {
+            .open .dropdown-menu > .active {
+                > a, > a:hover, > a:focus {
+                    color: #ffffff;
+                    background-color: $LURPSred;
+                }
+            }
+        }
+
+        > .active {
+            > a, > a:hover, > a:focus {
+                color: #ffffff;
+                background-color: $LURPSred;
+            }
+        }
+        > .open {
+            > a, > a:hover, > a:focus {
+                color: #ffffff;
+                background-color: $LURPSred;
+            }
+        }
+    }
+
+    .navbar-toggle {
+        border-color: $LURPSred;
+        &:hover, &:focus {
+            background-color: $LURPSred;
+        }
+        .icon-bar {
+            background-color: $LURPSred;
+        }
+    }
+
+    .navbar-collapse,
+    .navbar-form {
+        border-color: $LURPSred;
+    }
+
+    .navbar-link {
+        color: $LURPSred;
+        &:hover {
+            color: #ffffff;
+        }
+    }
+
+    .centered-pills { 
+        text-align:center; 
+
+        .nav-pills {
+            display:inline-block;
+        }
+
+        li {
+            display:inline;
+
+            a {
+                float:left;
+                border-radius:0;
+            }
+        }
+    }
+}
+    
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu {
+    > li > a {
+      color: $LURPSred;
+      &:hover, &:focus {
+        color: #ffffff; }}
+    > .active {
+      > a, > a:hover, > a:focus {
+        color: #ffffff;
+        background-color: $LURPSred; }}}
+}
+
+
+.main {
+    padding-top:20px;
+    padding-bottom:20px;
+    
+    h2 {
+        font-family:'Oswald';
+        color:$LURPSred;
+    }
+    
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: $LURPSred;
+    overflow:hidden;
+    
+    p {
+        color:white;
+        font-family:'Oswald';
+        font-weight:400;
+        padding-top:15px;
+    }
+    
+    a {
+        color:inherit;
+    }
+}
+
+.banner p {
+    background-color:white;
+    color:black;
+    padding:10px;
+    margin:80px;
+    box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.maps {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+    
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+    
+}

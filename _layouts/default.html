@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>        
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title | escape }}{% endif %} | Lancaster University Roleplaying Society</title>
+        <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+        <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" type="text/css"> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" type="text/css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
+        <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' type='text/css'>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans" type="text/css">
+        <meta name="msapplication-TileColor" content="#b91d47">
+        <meta name="msapplication-TileImage" content="{{ site.baseurl }}/css/icons/mstile-144x144.png?v=E66wydxR7o">
+        <meta name="theme-color" content="#c22b22">
+        <link rel="icon" href="{{ site.baseurl }}/css/icons/android-chrome-192x192.png?v=E66wydxR7o" sizes="192x192" type="image/png">
+        <link rel="manifest" href="{{ site.baseurl }}/css/icons/manifest.json?v=E66wydxR7o" type="application/json">
+        <link rel="apple-touch-icon" href="{{ site.baseurl }}/css/icons/apple-touch-icon-57x57.png?v=E66wydxR7o" sizes="57x57" type="image/png">
+        <link rel="apple-touch-icon" href="{{ site.baseurl }}/css/icons/apple-touch-icon-60x60.png?v=E66wydxR7o" sizes="60x60" type="image/png">
+        <link rel="apple-touch-icon" href="{{ site.baseurl }}/css/icons/apple-touch-icon-72x72.png?v=E66wydxR7o" sizes="72x72" type="image/png">
+        <link rel="apple-touch-icon" href="{{ site.baseurl }}/css/icons/apple-touch-icon-76x76.png?v=E66wydxR7o" sizes="76x76" type="image/png">
+        <link rel="apple-touch-icon" href="{{ site.baseurl }}/css/icons/apple-touch-icon-114x114.png?v=E66wydxR7o" sizes="114x114" type="image/png">
+        <link rel="apple-touch-icon" href="{{ site.baseurl }}/css/icons/apple-touch-icon-120x120.png?v=E66wydxR7o" sizes="120x120" type="image/png">
+        <link rel="apple-touch-icon" href="{{ site.baseurl }}/css/icons/apple-touch-icon-144x144.png?v=E66wydxR7o" sizes="144x144" type="image/png">
+        <link rel="apple-touch-icon" href="{{ site.baseurl }}/css/icons/apple-touch-icon-152x152.png?v=E66wydxR7o" sizes="152x152" type="image/png">
+        <link rel="apple-touch-icon" href="{{ site.baseurl }}/css/icons/apple-touch-icon-180x180.png?v=E66wydxR7o" sizes="180x180" type="image/png">
+        <link rel="shortcut icon" href="{{ site.baseurl }}/css/icons/favicon.ico?v=E66wydxR7o">
+        <link rel="icon" href="{{ site.baseurl }}/favicon-16x16.png?v=E66wydxR7o" sizes="16x16" type="image/png">
+        <link rel="icon" href="{{ site.baseurl }}/favicon-32x32.png?v=E66wydxR7o" sizes="32x32" type="image/png">
+        <link rel="icon" href="{{ site.baseurl }}/favicon-96x96.png?v=E66wydxR7o" sizes="96x96" type="image/png">
+        <link rel="icon" href="{{ site.baseurl }}/favicon-194x194.png?v=E66wydxR7o" sizes="194x194" type="image/png">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <a class="navbar-brand" href="{{ site.baseurl }}/">LURPS</a>
+                <div class="navbar-collapse collapse">               
+                    <ul class="nav navbar-nav">
+                          {% assign pages_list = site.pages %}
+                          {% assign group = 'navigation' %}
+                          {% for node in pages_list %}
+                          {% if group == null or group == node.group %}
+                            {% if page.url == node.url %}
+                              <li class="active"><a href="{{node.url}}" class="active">{{node.title}}</a></li>
+                            {% else %}
+                              <li><a href="{{node.url}}">{{node.title}}</a></li>
+                            {% endif %}
+                          {% endif %}
+                        {% endfor %}
+                        {% assign pages_list = nil %}
+                        {% assign group = nil %}
+                    </ul>
+                    <div class="centered-pills">
+                        <ul class="nav navbar-nav navbar-right nav-pills">
+                            <li><a href="http://facebook.com/hellolurps" class="btn btn-social-icon btn-facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="http://twitter.com/hellolurps" class="btn btn-social-icon btn-twitter" ><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="mailto:lurps@lancaster.ac.uk" class="btn btn-social-icon btn-twitter" ><i class="fa fa-envelope"></i></a></li>
+                         </ul>
+                    </div>
+                </div>
+            </div>                
+        </nav>
+        <div class="title container-fluid">
+            <div class="row">
+                <h1>{{site.title | upcase}}</h1>
+            </div>
+        </div>
+        <div class="banner" style="background: url({{ site.baseurl }}/css/banners/{{ page.title | slugify | downcase }}.jpg) no-repeat center;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 hidden-xs">
+                        <p>{{ page.slogan }}</p>
+                    </div>
+                </div>
+            </div>             
+        </div>
+        <div class="main container">
+            <div class="row">
+                <div class="col-xs-12 visible-xs">
+                    <p>{{ page.slogan }}</p>
+                </div>
+            </div>
+            
+        {{ content }}
+            
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <p>Copyright &copy; Patrick Lickman 2015 | Photo &copy; <a href="https://flic.kr/p/{{ page.flickr }}/">{{ page.credit }}</a> 2015</p>
+            </div>
+        </footer>     
+    </body>
+</html>
