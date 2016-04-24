@@ -33,3 +33,5 @@ If it isn't fine, you can always download an older version of the site from here
 If you link to anywhere on the site, use the code `{{ site.baseurl }}`. This means www.lurps.co.uk, so for example if you're trying to access the stylesheet type `"{{ site.baseurl }}/css/style.css"`. This will then correctly render both on the local host and on the live site, without you having to change it between.
 
 Try not to change much in `_layouts/default.html`, as that's where much of the secret code hides.
+
+In terms of whether to use Markdown or HTML for a new page, I generally prefer to use Markdown unless the page needs to make use of Bootstrap's grid system. Markdown is super easy to learn, and you can look at any of the `.md` pages on the site for examples of how it works. It's basically `##` for your headers, and your text as it is.
