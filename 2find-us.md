@@ -1,4 +1,5 @@
 ---
+permalink: /find-us/
 title: Find Us
 layout: default
 slogan: LURPS is based in Lancaster University, which can be a tricky place to get around. If you need to find out where we are, check out the map below.
@@ -10,7 +11,7 @@ group: navigation
 
 The Tuesday and Thursday term-time meetings are held in Bowland North Seminar Room 10 while the Live games normally meet outside the Chaplaincy Centre. Click [here](http://www.lancaster.ac.uk/media/lancaster-university/content-assets/documents/maps/campus.pdf) for a map.
 
-There is always a possibility that a meeting place will change; for this reason, keep tabs on our [Facebook](http://www.facebook.com/hellolurps) and [Twitter](http://www.twitter.com/hellolurps) pages.</p>
+There is always a possibility that a meeting place will change; for this reason, keep tabs on our [Facebook](http://www.facebook.com/hellolurps) and [Twitter](http://www.twitter.com/hellolurps) pages.
 
 ## Getting to the University
 

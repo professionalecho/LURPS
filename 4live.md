@@ -1,0 +1,84 @@
+---
+permalink: /live/
+title: Live
+layout: default
+slogan: Live-action roleplaying, often referred to as LARPing, is a type of roleplaying where you physically act out the things you do. LURPS runs several different LARP games, as detailed below;
+credit: Ann Sundqvist
+flickr: 8PoTdx
+group: navigation
+---
+<div class="row">
+<div class="col-md-3">
+    <img src="{{ site.baseurl }}/css/assets/fell-rune.jpg" class="img-responsive">
+    </div>
+<div class="col-md-9">
+<h2>Fell Rune</h2>
+
+<p>Fell Rune is a game of mythic Vikings, set in a thoroughly ahistorical world where trolls lurk in the mountains, giant serpents swim in the seas, and the greatest warriors of times past sometimes descend from Valhalla to bestow favours upon their most cunning and bloodthirsty offspring. PCs are warriors and witches, tricksters and tale-tellers, seeking gold and a glorious death. Really, what more could you want?</p>
+
+<p>Fell Rune is designed to be mechanically simple, and accessible to people unfamiliar with Live Action Role-Play. Your refs hope to offer an engaging and entertaining experience of high action and high drama, where all the necessary information about the world and the game can be explained on the day, and time spent on the game between sessions is entirely optional.</p>
+
+<p>So come, drink mead and earn your place in Valhalla. FOR THE ANCESTORS!</p>
+
+<p>Fell Rune generally runs once a term. Keep an eye on all the usual places for details.</p>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<h2>Far Shores</h2>
+
+<p>Far Shores is a fantasy setting of gods, magic and exploration.</p>
+
+<p>Two hundred years ago the world was shaken by the Cataclysm, sundering Virmor, the land on which the Silver States of Agryos, a human nation built on magical might. Since then the world has reshaped itself around the northern continent of Ilmarin, members of every race having to learn how to co-exist with each other – not always successfully.  As an adventurer in the free city of Farhaven, your expertise are in high demand during the current political climate. </p>
+
+<p>Far Shores runs alternating Saturdays with Obsidian Arcana.</p>
+</div>
+<div class="col-md-6">
+    <img src="{{ site.baseurl }}/css/assets/far-shores.jpg" class="img-responsive">
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+    <img src="{{ site.baseurl }}/css/assets/tam-lin-tales.jpg" class="img-responsive">
+    </div>
+    <div class="col-md-8">
+<h2>Tam Lin Tales</h2>
+
+<p>Tam Lin Tales is a modern day urban-fantasy LARP set in a world where players are newly escaped prisoners of the True Fae warped by the strange story-like power of Arcadia.</p>
+
+<p>The world has changed since you were once part of it, danger seems to lurk around every corner and the supernatural seems to have taken root in a once stable reality. Perhaps it is not the world that has changed, maybe it’s just you, but there are others like you and together life feels a lot safer.</p>
+
+<p>Tam Lin Tales is one of LURPS’ newer systems with a world that is still expanding and growing. It is currently running once a term with both indoor social and active outdoor events.</p>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+    <h2>Obsidian Arcana</h2>
+
+    <p>Obsidian Arcana is a fantastical setting of steampunk technology and amazing magics. Where the forces of civilisation wage war against ancient powers, insane science and a world gone mad.</p>
+
+    <p>The Free Nations has fallen and a new order has taken it's place, the Federated Nations. Imbued with the spirit of democracy, mankind has entered a new age. For the first time in centuries they are looking beyond the borders of what is known, both geographically and scientifically. The rise of the Old Gods, the mysterious lands over the oceans and across the mountains and the horrors of the Splinterverse.</p>
+
+    <p>The League of Exploration and Adventure, the premier club for those of an adventurous bent, are looking for recruits to deal with all of these. You play one of those intrepid figures looking to make their mark on the world.</p>
+
+    <p>Obsidian Arcana runs alternating Saturdays with Far Shores.</p>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<h2>Vampires In Public</h2>
+
+<p>Vampires in Public is a modern-day horror LARP where the players are the newly fledged vampires of Lancaster, negotiating their way through the complexities of life in the supernatural world.</p>
+<p>Current VIP is a mix of politics and horror, atmosphere and danger - we pride ourselves on having a detailed and extensive sandbox for players to explore. From nearby courts to local werewolves, from cosmic entities to human government, life as a vampire is rarely simple.</p>
+
+<p>ViP runs every other week of term on Monday nights, meeting at Bowland Bar at 6pm.</p>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<h2>...And More!</h2>
+
+<p>LURPs sometimes invites local LARP groups to come and run events specifically for us. Many of these are horror based, like <a href="https://roomthirteen.wordpress.com">Room Thirteen</a>, <a href="http://www.aeonhorror.com">Aeon Horror</a>, or <a href="http://shunnedhouselrp.weebly.com/">Shunned House</a>, but this is dependent on member interest.</p>
+<p>We also run freeform events and other one-offs throughout the term. Details for these will be announced at the regular Tuesday/Thursday meetings as well as on our Facebook group.</p>
+</div>
+</div>

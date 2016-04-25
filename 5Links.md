@@ -1,4 +1,5 @@
 ---
+permalink: /links/
 title: Links
 layout: default
 slogan: For your reference, we present resources and other useful bits and pieces you might need to know.

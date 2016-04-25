@@ -1,4 +1,5 @@
 ---
+permalink: /tabletop/
 title: Tabletop
 layout: default
 slogan: The society runs two types of tabletop games&#58; regular long-running campaigns, and one-shots. Read on to find out how to get involved with each.

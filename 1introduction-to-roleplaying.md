@@ -1,4 +1,5 @@
 ---
+permalink: /introduction-to-roleplaying/
 title: Introduction to Roleplaying
 layout: default
 slogan: If all this seems rather overwhelming, read on for a concise beginner's guide to what roleplaying actually is, as written by our erstwhile President Gareth Williams.
