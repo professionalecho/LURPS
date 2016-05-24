@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <head>
+    <head>        
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -32,24 +32,22 @@
         <link rel="icon" href="/favicon-32x32.png?v=E66wydxR7o" sizes="32x32" type="image/png">
         <link rel="icon" href="/favicon-96x96.png?v=E66wydxR7o" sizes="96x96" type="image/png">
         <link rel="icon" href="/favicon-194x194.png?v=E66wydxR7o" sizes="194x194" type="image/png">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     </head>
     <body>
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-controls="navbar">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                </div>
                 <a class="navbar-brand" href="/">LURPS</a>
+                </div>
                 <div class="navbar-collapse collapse">               
                     <ul class="nav navbar-nav">
-                          
+                        
                           
                           
                           
@@ -106,14 +104,12 @@
                 <h1>LANCASTER UNIVERSITY ROLEPLAYING SOCIETY</h1>
             </div>
         </div>
-        <div class="banner" style="background: url(/css/banners/tabletop.jpg) no-repeat center;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6 col-md-4 hidden-xs">
-                        <p>The society runs two types of tabletop games&#58; regular long-running campaigns, and one-shots. Read on to find out how to get involved with each.</p>
-                    </div>
-                </div>
-            </div>             
+        <div class="banner hidden-xs" style="background: url(/css/banners/tabletop.jpg) no-repeat center;">
+            <div class="banner-wrapper" style="background: rgba(15, 67, 117, 0.7);    height: 100%;    z-index: 2;"    >
+                <div class="container">
+                    <p>The society runs two types of tabletop games&#58; regular long-running campaigns, and one-shots. Read on to find out how to get involved with each.</p>
+                </div>             
+            </div>
         </div>
         <div class="main container">
             <div class="row">
@@ -138,8 +134,10 @@
         </div>
         <footer class="footer">
             <div class="container">
-                <p>Copyright &copy; Patrick Lickman 2015 | Photo &copy; <a href="https://flic.kr/p/GuGtTy/">Patrick Lickman</a> 2015</p>
+                <p>Copyright &copy; Lancaster University Roleplaying Society 2015 <span class="hidden-xs">| Photo &copy; <a href="https://flic.kr/p/GuGtTy/">Patrick Lickman</a> 2015</span></p>
             </div>
-        </footer>     
+        </footer>   
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>  
     </body>
 </html>

@@ -29,133 +29,42 @@ body {
 .navbar-default  {
     font-family:'Oswald';
     text-transform:uppercase;
-    overflow:hidden;
-    height:50px;
-}
-
-$LURPSred   : $LURPSred;
-$dropDown   : true;
-
-.navbar-default {
-    background-color: #ffffff;
-    border-color: $LURPSred;
-
+    background-color:white;
+    margin:0;
+    border:0;
+    border-bottom:1px solid $LURPSred;
     .navbar-brand {
-        color: $LURPSred;
-        &:hover, &:focus {
-            color: #ffffff;
-            background-color: $LURPSred;
-        }
-    }
-
-    .navbar-text {
-        color: $LURPSred;
-    }
-
-    .navbar-nav {
-        > li {
-            > a {
-                color: $LURPSred;
-                &:hover,  &:focus {
-                    color: #ffffff;
-                    background-color: $LURPSred;
-                }
-            }
-
-            @if $dropDown {
-                > .dropdown-menu {
-                    background-color: #ffffff;
-                    > li {
-                        > a {
-                            color: $LURPSred;
-                            &:hover,  &:focus {
-                                color: #ffffff;
-                                background-color: $LURPSred;
-                            }
-                        }
-                        > .divider {
-                        background-color: $LURPSred;
-                        }
-                    }
-                }
-            }
-        }
-
-        @if $dropDown {
-            .open .dropdown-menu > .active {
-                > a, > a:hover, > a:focus {
-                    color: #ffffff;
-                    background-color: $LURPSred;
-                }
-            }
-        }
-
-        > .active {
-            > a, > a:hover, > a:focus {
-                color: #ffffff;
-                background-color: $LURPSred;
-            }
-        }
-        > .open {
-            > a, > a:hover, > a:focus {
-                color: #ffffff;
-                background-color: $LURPSred;
-            }
-        }
-    }
-
-    .navbar-toggle {
-        border-color: $LURPSred;
-        &:hover, &:focus {
-            background-color: $LURPSred;
-        }
-        .icon-bar {
-            background-color: $LURPSred;
-        }
-    }
-
-    .navbar-collapse,
-    .navbar-form {
-        border-color: $LURPSred;
-    }
-
-    .navbar-link {
-        color: $LURPSred;
+        color:black;
         &:hover {
-            color: #ffffff;
+            color:$LURPSred;
         }
     }
-
-    .centered-pills { 
-        text-align:center; 
-
-        .nav-pills {
-            display:inline-block;
-        }
-
+    .navbar-nav {
         li {
-            display:inline;
-
             a {
-                float:left;
-                border-radius:0;
+                color:black;
+                &:hover {
+                    color:$LURPSred;    
+                }
+            }     
+        }
+        li.active {
+            a {
+                color:$LURPSred;
+                background:none;
+                &:hover {
+                    background:none;
+                    color:$LURPSred;
+                }
             }
         }
     }
 }
-    
-@media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu {
-    > li > a {
-      color: $LURPSred;
-      &:hover, &:focus {
-        color: #ffffff; }}
-    > .active {
-      > a, > a:hover, > a:focus {
-        color: #ffffff;
-        background-color: $LURPSred; }}}
-}
 
+@media (max-width:768px) {
+    .navbar-default {
+    }
+}
 
 .main {
     padding-top:20px;
@@ -188,12 +97,18 @@ $dropDown   : true;
     }
 }
 
+.banner {
+    height: 100%;
+    overflow: hidden;
+    color: #FFFFFF
+}
+
 .banner p {
-    background-color:white;
-    color:black;
-    padding:10px;
-    margin:80px;
-    box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    color:white;
+    font-size:30px;
+    text-align:center;
+    margin-top:200px;
+    margin-bottom:200px;
 }
 
 .maps {

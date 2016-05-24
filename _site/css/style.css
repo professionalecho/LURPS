@@ -20,73 +20,25 @@ body {
 .navbar-default {
   font-family: 'Oswald';
   text-transform: uppercase;
-  overflow: hidden;
-  height: 50px; }
-
-.navbar-default {
-  background-color: #ffffff;
-  border-color: #c22b22; }
+  background-color: white;
+  margin: 0;
+  border: 0;
+  border-bottom: 1px solid #c22b22; }
   .navbar-default .navbar-brand {
-    color: #c22b22; }
-    .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-      color: #ffffff;
-      background-color: #c22b22; }
-  .navbar-default .navbar-text {
-    color: #c22b22; }
-  .navbar-default .navbar-nav > li > a {
-    color: #c22b22; }
-    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-      color: #ffffff;
-      background-color: #c22b22; }
-  .navbar-default .navbar-nav > li > .dropdown-menu {
-    background-color: #ffffff; }
-    .navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+    color: black; }
+    .navbar-default .navbar-brand:hover {
       color: #c22b22; }
-      .navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover, .navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
-        color: #ffffff;
-        background-color: #c22b22; }
-    .navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
-      background-color: #c22b22; }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #ffffff;
-    background-color: #c22b22; }
-  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    color: #ffffff;
-    background-color: #c22b22; }
-  .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-    color: #ffffff;
-    background-color: #c22b22; }
-  .navbar-default .navbar-toggle {
-    border-color: #c22b22; }
-    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-      background-color: #c22b22; }
-    .navbar-default .navbar-toggle .icon-bar {
-      background-color: #c22b22; }
-  .navbar-default .navbar-collapse,
-  .navbar-default .navbar-form {
-    border-color: #c22b22; }
-  .navbar-default .navbar-link {
-    color: #c22b22; }
-    .navbar-default .navbar-link:hover {
-      color: #ffffff; }
-  .navbar-default .centered-pills {
-    text-align: center; }
-    .navbar-default .centered-pills .nav-pills {
-      display: inline-block; }
-    .navbar-default .centered-pills li {
-      display: inline; }
-      .navbar-default .centered-pills li a {
-        float: left;
-        border-radius: 0; }
+  .navbar-default .navbar-nav li a {
+    color: black; }
+    .navbar-default .navbar-nav li a:hover {
+      color: #c22b22; }
+  .navbar-default .navbar-nav li.active a {
+    color: #c22b22;
+    background: none; }
+    .navbar-default .navbar-nav li.active a:hover {
+      background: none;
+      color: #c22b22; }
 
-@media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #c22b22; }
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-      color: #ffffff; }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #ffffff;
-    background-color: #c22b22; } }
 .main {
   padding-top: 20px;
   padding-bottom: 20px; }
@@ -109,12 +61,17 @@ body {
   .footer a {
     color: inherit; }
 
+.banner {
+  height: 100%;
+  overflow: hidden;
+  color: #FFFFFF; }
+
 .banner p {
-  background-color: white;
-  color: black;
-  padding: 10px;
-  margin: 80px;
-  box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75); }
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 200px; }
 
 .maps {
   position: relative;

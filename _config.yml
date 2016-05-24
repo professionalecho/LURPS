@@ -13,6 +13,8 @@ description: >
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.lurps.co.uk" # the base hostname & protocol for your site
 twitter_username: hellolurps
+exclude: [README.md]
+encoding: utf-8
 
 # Build settings
 markdown: kramdown
