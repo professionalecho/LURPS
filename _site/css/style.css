@@ -9,7 +9,7 @@ body {
 .title {
   margin-top: 50px; }
   .title h1 {
-    font-family: &rsquo;Oswald&rsquo;;
+    font-family: 'Oswald';
     text-transform: uppercase;
     text-align: center;
     background-color: #c22b22;
@@ -18,7 +18,7 @@ body {
     margin: 0; }
 
 .navbar-default {
-  font-family: &rsquo;Oswald&rsquo;;
+  font-family: 'Oswald';
   text-transform: uppercase;
   background-color: white;
   margin: 0;
@@ -43,7 +43,7 @@ body {
   padding-top: 20px;
   padding-bottom: 20px; }
   .main h2 {
-    font-family: &rsquo;Oswald&rsquo;;
+    font-family: 'Oswald';
     color: #c22b22; }
 
 .footer {
@@ -55,7 +55,7 @@ body {
   overflow: hidden; }
   .footer p {
     color: white;
-    font-family: &rsquo;Oswald&rsquo;;
+    font-family: 'Oswald';
     font-weight: 400;
     padding-top: 15px; }
   .footer a {
