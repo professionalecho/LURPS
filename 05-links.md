@@ -10,7 +10,7 @@ group: navigation
 ## LURPS Stuff!
 
 * [Exec]({{ site.baseurl}}/exec/): We are run by an exec of seven people; if you ever want to know anything about the society, these are the people to turn to.
-* [Constitution]({{site.baseurl}}/css/assets/constitution}}): This is the document that contains all of the rules for how the society is run. It's important.
+* [Constitution]({{site.baseurl}}/css/assets/constitution.pdf}}): This is the document that contains all of the rules for how the society is run. It's important.
 * [Obsidian Arcana](http://www.justslide.com/obsidianarcana/) and [Far Shores](http://www.justslide.com/farshores/index.php?title=Main_Page) Wikis: The main two Live games of LURPS have their own wiki spaces, each with ridiculous amounts of backstory, lore, system rules, and other detail to get stuck into. Also check out the [website](http://www.theabandonedstory.co.uk/) for Vampires in Public!
 
 ## General Resources!
