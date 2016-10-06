@@ -6,11 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title | escape }}{% endif %} | Lancaster University Roleplaying Society</title>
         <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-        <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+        <link rel="canonical" href="{{ page.url | replace:&rsquo;index.html&rsquo;,&rsquo;&rsquo; | prepend: site.baseurl | prepend: site.url }}">
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" type="text/css"> 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" type="text/css">
         <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
-        <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' type='text/css'>
+        <link rel="stylesheet" href=&rsquo;http://fonts.googleapis.com/css?family=Oswald:400,700,300&rsquo; type=&rsquo;text/css&rsquo;>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans" type="text/css">
         <meta name="msapplication-TileColor" content="#b91d47">
         <meta name="msapplication-TileImage" content="{{ site.baseurl }}/css/icons/mstile-144x144.png?v=E66wydxR7o">
@@ -47,7 +47,7 @@
                 <div class="navbar-collapse collapse">               
                     <ul class="nav navbar-nav">
                         {% assign pages_list = site.pages %}
-                          {% assign group = 'navigation' %}
+                          {% assign group = &rsquo;navigation&rsquo; %}
                           {% for node in pages_list %}
                           {% if group == null or group == node.group %}
                             {% if page.url == node.url %}

@@ -3,17 +3,17 @@ The website for the Lancaster University Roleplaying Society. This website uses 
 
 ## Getting Up & Running
 
-To start up you'll need to install a few things. The first is Ruby, and its associated DevKit. You can find both of those [here](http://rubyinstaller.org/downloads/). I used version 2.2.4. When installing the DevKit, put it somewhere like `C:\RubyDevKit`. Then, once you've installed both of those, open a command terminal and navigate to the DevKit folder by typing `cd C:\RubyDevKit`. Then, type `ruby dk.rb init` to configure Ruby, and finally `ruby dk.rb install` to install it!
+To start up you&rsquo;ll need to install a few things. The first is Ruby, and its associated DevKit. You can find both of those [here](http://rubyinstaller.org/downloads/). I used version 2.2.4. When installing the DevKit, put it somewhere like `C:\RubyDevKit`. Then, once you&rsquo;ve installed both of those, open a command terminal and navigate to the DevKit folder by typing `cd C:\RubyDevKit`. Then, type `ruby dk.rb init` to configure Ruby, and finally `ruby dk.rb install` to install it!
 
-Once Ruby is installed, it's a piece of cake to install Jekyll. Literally all you need to type is `gem install jekyll`, and it'll start! You'll need access to the files in this repository by requesting a pull, and then using a program like [GitHub Desktop](https://desktop.github.com/) (not the popular choice, but the easiest and friendliest by far) to be able to use the repository.
+Once Ruby is installed, it&rsquo;s a piece of cake to install Jekyll. Literally all you need to type is `gem install jekyll`, and it&rsquo;ll start! You&rsquo;ll need access to the files in this repository by requesting a pull, and then using a program like [GitHub Desktop](https://desktop.github.com/) (not the popular choice, but the easiest and friendliest by far) to be able to use the repository.
 
-Using the command terminal, navigate to the repository (`cd C:\Users\[username]\Documents\GitHub\LURPS` by default), and run Jekyll by typing `jekyll serve`. You'll then be able to point your browser at `http://localhost:4000/` to see changes as you make them!
+Using the command terminal, navigate to the repository (`cd C:\Users\[username]\Documents\GitHub\LURPS` by default), and run Jekyll by typing `jekyll serve`. You&rsquo;ll then be able to point your browser at `http://localhost:4000/` to see changes as you make them!
 
 ## Making Changes
 
-In the root of the LURPS folder are the pages you'll mostly be using. The front page is `index.html`, everything else is as named in the live site. Some are Markdown, some are HTML, but it all works under Jekyll. What's happening here is that the "background" information that lays out the site (structuring, styles, meta-information etc.) has been put into the `_layouts` folder so you can focus on the content. The information at the top of each page (the stuff between three dashes) is key information that the service uses to build up the site. Here's what each of them mean, using the 'Find Us' page as an example:
+In the root of the LURPS folder are the pages you&rsquo;ll mostly be using. The front page is `index.html`, everything else is as named in the live site. Some are Markdown, some are HTML, but it all works under Jekyll. What&rsquo;s happening here is that the "background" information that lays out the site (structuring, styles, meta-information etc.) has been put into the `_layouts` folder so you can focus on the content. The information at the top of each page (the stuff between three dashes) is key information that the service uses to build up the site. Here&rsquo;s what each of them mean, using the &rsquo;Find Us&rsquo; page as an example:
 
-* **title: Find Us**: This is the title of the page. It's displayed in the browser (before the society name) and is used to name the banner image for that page. For that reason never include special characters in the title field.
+* **title: Find Us**: This is the title of the page. It&rsquo;s displayed in the browser (before the society name) and is used to name the banner image for that page. For that reason never include special characters in the title field.
 * **layout: default**: The default layout is the only layout, so this should never change.
 * **slogan: LURPS is based...**: This appears in the white box over the banner (or as the first line on mobiles).
 * **credit: Christian Cable**: The name of the person who provided the banner image. Always make sure you credit the person!
@@ -24,14 +24,14 @@ In addition, the `index.html` page and the `exec.html` page have more arguments 
 
 ## Committing Changes, and Really Committing Them
 
-Once you're happy with the site, use GitHub to commit the changes to here. Then, with your Webmaster Powers, connect to the LURPS webspace (via the [university's VPN](http://lancasteranswers.lancs.ac.uk/portal/app/portlets/results/viewsolution.jsp?solutionid=111025142706591&isguest=true)), take the entire contents of the (hopefully hitherto untouched) `_site` folder and put them in there. You may get a lot of notifications about replacing files, because you're updating every single one of them. It should be fine.
+Once you&rsquo;re happy with the site, use GitHub to commit the changes to here. Then, with your Webmaster Powers, connect to the LURPS webspace (via the [university&rsquo;s VPN](http://lancasteranswers.lancs.ac.uk/portal/app/portlets/results/viewsolution.jsp?solutionid=111025142706591&isguest=true)), take the entire contents of the (hopefully hitherto untouched) `_site` folder and put them in there. You may get a lot of notifications about replacing files, because you&rsquo;re updating every single one of them. It should be fine.
 
-If it isn't fine, you can always download an older version of the site from here to try again. And if it is extremely un-fine, let me know, and I'll see what I can do.
+If it isn&rsquo;t fine, you can always download an older version of the site from here to try again. And if it is extremely un-fine, let me know, and I&rsquo;ll see what I can do.
 
 ## Tips
 
-If you link to anywhere on the site, use the code `{{ site.baseurl }}`. This means www.lurps.co.uk, so for example if you're trying to access the stylesheet type `"{{ site.baseurl }}/css/style.css"`. This will then correctly render both on the local host and on the live site, without you having to change it between.
+If you link to anywhere on the site, use the code `{{ site.baseurl }}`. This means www.lurps.co.uk, so for example if you&rsquo;re trying to access the stylesheet type `"{{ site.baseurl }}/css/style.css"`. This will then correctly render both on the local host and on the live site, without you having to change it between.
 
-Try not to change much in `_layouts/default.html`, as that's where much of the secret code hides.
+Try not to change much in `_layouts/default.html`, as that&rsquo;s where much of the secret code hides.
 
-In terms of whether to use Markdown or HTML for a new page, I generally prefer to use Markdown unless the page needs to make use of Bootstrap's grid system. Markdown is super easy to learn, and you can look at any of the `.md` pages on the site for examples of how it works. It's basically `##` for your headers, and your text as it is.
+In terms of whether to use Markdown or HTML for a new page, I generally prefer to use Markdown unless the page needs to make use of Bootstrap&rsquo;s grid system. Markdown is super easy to learn, and you can look at any of the `.md` pages on the site for examples of how it works. It&rsquo;s basically `##` for your headers, and your text as it is.

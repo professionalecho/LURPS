@@ -16,7 +16,7 @@ body {
 .title {
     margin-top:50px;
     h1 {
-        font-family:'Oswald';
+        font-family:&rsquo;Oswald&rsquo;;
         text-transform:uppercase;
         text-align:center;
         background-color:$LURPSred;
@@ -27,7 +27,7 @@ body {
 }
 
 .navbar-default  {
-    font-family:'Oswald';
+    font-family:&rsquo;Oswald&rsquo;;
     text-transform:uppercase;
     background-color:white;
     margin:0;
@@ -71,7 +71,7 @@ body {
     padding-bottom:20px;
     
     h2 {
-        font-family:'Oswald';
+        font-family:&rsquo;Oswald&rsquo;;
         color:$LURPSred;
     }
     
@@ -87,7 +87,7 @@ body {
     
     p {
         color:white;
-        font-family:'Oswald';
+        font-family:&rsquo;Oswald&rsquo;;
         font-weight:400;
         padding-top:15px;
     }
